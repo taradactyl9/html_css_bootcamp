@@ -1,0 +1,87 @@
+.container {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    width: 250px;
+    background-color:rgb(86, 86, 86);
+    margin-left: 5px;
+    position: relative;
+    height: 630px;
+    position: relative;
+    
+ 
+}
+
+.searchbar {
+    margin-left: 40px;
+}
+
+h3 {
+    color: white;
+    font-weight: bold;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+ul {
+    list-style-type: none;
+    line-height: 50px;
+    margin-left: 1px;
+}
+
+.copyright {
+   margin-left: 50px;
+   color: rgb(212, 209, 203);
+   font-size: smaller;
+   position: absolute;
+   bottom: 0;
+   
+}
+
+.blog { 
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    margin-left: 300px;
+    margin-right: 70px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+
+}
+
+blockquote {
+    background-color: rgb(230, 227, 222);
+    border-left: 10px solid gray;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    line-height: 30px;
+    
+}
+
+blockquote:before {
+    content: open-quote;
+    color: gray;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote:after {
+    content: close-quote;
+    color: gray;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+span {
+    margin-left: 800px;
+}
